@@ -139,7 +139,7 @@ Le policy sono il fondamento dell'infrastruttura di sicurezza e definiscono i re
 * **PROMISCUOUS POLICY** - Nessuna restrizione per l'utilizzo dei sistemi e delle relative risorse.
 * **PERMISSIVE POLICY** - È una policy piuttosto permissiva, blocca soltanto i comportamenti che potrebbero arrecare danno, deve essere aggiornata regolarmente.
 * **PRUDENT POLICY** - Fornisce un livello di sicurezza elevato, blocca tutti i servizi esclusi quelli necessari e/o riconosciuti, tutti i movimenti vengono tracciati.
-* **PARANOID POLICY** - Questa policy blocca tutto.
+* **PARANOID POLICY** - Questa tipologia di policy blocca tutto.
 
 #### Progettare le policy di sicurezza
 1. Identificare i rischi tramite un Risk Assessment
@@ -153,18 +153,39 @@ Le policy sono il fondamento dell'infrastruttura di sicurezza e definiscono i re
 9. Rivedi e aggiorna regolarmente le policy
 
 #### Sicurezza fisica
+È il primo livello di protezione, prevede la protezione degli asset azienda da minacce ambientali o minacce da parte dell'uomo. Previene gli accessi non autorizzati, il furto di dati, spionaggio e attacchi di tipo "social engineering".
 
 #### Cos'è il rischio
+Il rischio si riferisce al livello di incertezza o di aspettativa che un evento negativo possa causare danni al sistema. Una matrice di rischio viene usata per verificare l'effettiva dimensione considerando la probabilità, la verosimiglianza e le conseguenze (impatto) del rischio.
 
 #### Risk Management
+Il Risk Management è il processo di riduzione e mantenimento del rischio ad un livello accettabile.
+
+**Fasi**
+Identificazione del rischio -> Risk Assessment -> Trattamento del rischio -> Tracciamento del rischio -> Revisione del rischio
 
 #### Incident Management
+L'incident Management è un insieme di processi definiti volti ad identificare, analizzare, priorizzare e risolvere gli incidenti di sicurezza.
+
+Coinvolge le fasi di
+
+* Vulnerability Handling,
+* Incident Handling:
+    * Triage
+    * Incident Response
+    * Reporting e Detection
+    * Analisi
+* Artifact Handling, 
+* Announcements,
+* Alerts
+
 **Incident Management Process**
-1. Preparation for Incident Handling and Response
-2. Detection and Analysis
-3. Classification and Prioritization
-4. Notification
-5. Containment
+
+1. Preparazione per Incident Handling e Response
+2. Detection e analisi
+3. Classificazione e priorizzazione
+4. Notifica
+5. Contenimento
 6. Forensic Investigation
-7. Eradication and Recovery
-8. Post-Incident Activities
+7. Eradication e Recovery
+8. Attività di Post-Incident
