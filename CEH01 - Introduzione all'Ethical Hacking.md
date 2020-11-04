@@ -69,7 +69,7 @@ L'hacking è l'abilità di sfruttare le vulnerabilità di un sistema e compromet
 * *Whitehat* - Un hacker "bravo ragazzo". Aiuta le organizzazioni a mettere in sicurezza i propri sistemi.
 * *Hacktivist* - Ha uno scopo politico.
 * *State sponsored hacker* - Sono hacker ingaggiati da governi per penetrare altri governi.
-* *Cyber Terrorists" - Sono motivati da un credo religioso o politico.
+* *Cyber Terrorists* - Sono motivati da un credo religioso o politico.
 * *Suicide Hacker* - Un hacker a cui non interessa finire in carcere o ricevere punizioni (multe).
 * *Script Kiddies* - Un hacker con basse conoscenze tecniche che utilizza strumenti sviluppati da altri.
 
