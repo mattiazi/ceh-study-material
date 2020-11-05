@@ -81,7 +81,7 @@ Tecniche di Competitive Intelligence
 #### Competitive Intelligence Gathering
 Il *Competitive Intelligence Gathering* è il processo di identificazione, raccolta e analisi delle informazioni sui tuoi competitor, è un processo passivo.
 
-#### Tracciare la reputazione online del target
+#### Tracciare la reputazione online del target
 Online Reputation Management (ORM) è un processo di monitoraggio della reputazione online di un'azienda (o soggetto in generale). Le recensioni negative sono, in genere, le più utili in quanto un utente arrabbiato tende ad essere più dettagliato: un eventuale attaccante potrebbe usare queste informazioni per un attacco di tipo social engineering.
 
 Whois e DNS Footprinting
