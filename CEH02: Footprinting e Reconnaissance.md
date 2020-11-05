@@ -81,7 +81,7 @@ Tecniche di Competitive Intelligence
 #### Competitive Intelligence Gathering
 Il *Competitive Intelligence Gathering* è il processo di identificazione, raccolta e analisi delle informazioni sui tuoi competitor, è un processo passivo.
 
-#### Tracciare la reputazione online del target
+#### Tracciare la reputazione online del target
 Online Reputation Management (ORM) è un processo di monitoraggio della reputazione online di un'azienda (o soggetto in generale). Le recensioni negative sono, in genere, le più utili in quanto un utente arrabbiato tende ad essere più dettagliato: un eventuale attaccante potrebbe usare queste informazioni per un attacco di tipo social engineering.
 
 Whois e DNS Footprinting
@@ -117,5 +117,21 @@ Un attaccante può determinare, tramite DNS, quali host hanno un ruolo important
 Network Footprinting
 -----
 
-#### Traceroute
+Le informazioni riguardanti i range di IP assistono gli attaccanti nella creazione di una mappa della rete, i range di IP vengono trovati utilizzando "ARIN tools" e le subnet tramite i Regional Internet Registry.
 
+#### Traceroute
+Il *traceroute* funziona grazie al protocollo **ICMP** e l'utilizzo del campo **TTL** (time-to-live) presente all'interno dell'header dei pacchetti, ciò permette di scoprire i router che il pacchetto attraversa.
+L'attaccante può così estrarre informazioni riguardanti la topologia della rete, i router "trusted" e la posizione dei firewall; queste informazioni aiutano l'attaccante alla costruzione di una mappa di rete.
+
+**TOOLS**: *geospider*, *visualroute*, *path analyzer*.
+
+Footprinting tools
+-----
+
+* Maltego (GUI, capace di disegnare grafici, esportazione pdf, integrazione con diversi servizi)
+* recon-ng (tool a linea di comando)
+* FOCA (Fingerprinting Organization with Collected Archives)
+* recondog (tool a linea di comando, accessibile anche via API)
+* OSRFramework (tool per OSINT)
+* sn1per
+* LHF (Low Hanging Fruit)
