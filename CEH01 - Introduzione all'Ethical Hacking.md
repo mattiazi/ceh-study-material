@@ -16,10 +16,10 @@ Panoramica sulla sicurezza delle informazioni (Information Security)
 
 #### Elementi di Information Security
 * **CONFIDENTIALITY** - Assicura che l'informazione sia accessibile solo ai soggetti autorizzati.
-* **INTEGRITY** - L'affidabilità di dati o risorse in termini di prevenzione di modifiche improprie o non autorizzate.
+* **INTEGRITY** - L'affidabilità di dati o risorse in termini di prevenzione alle modifiche improprie o non autorizzate.
 * **AVAILABILITY** - Assicura che i sistemi responsabili della consegna, memorizzazione ed elaborazione delle informazioni siano accessibili quando un utente autorizzato lo richiede.
-* **AUTHENTICITY** - L'autenticità si riferisce alla caratteristica di una comunicazione, documento o dati, di essere genuina.
-* **NON-REPUDIATION** - Garantisce che il mittente di un messaggio non potrà negare di averlo inviato e il destinatario non potrà negare di averlo ricevuto.
+* **AUTHENTICITY** - L'autenticità si riferisce alla caratteristica di una comunicazione, documento o dato, di essere genuina.
+* **NON-REPUDIATION** - Garantisce che il mittente di un messaggio non possa negare di averlo inviato e il destinatario di averlo ricevuto.
 
 Comprendere le minacce alla sicurezza delle informazioni e i vettori di attacco
 -----
@@ -30,7 +30,7 @@ Comprendere le minacce alla sicurezza delle informazioni e i vettori di attacco
 * Il motivo nasce quando il sistema target memorizza o elabora qualche informazione preziosa e questo porta alla minaccia di un attacco al sistema.
 * Gli attaccanti utilizzano vari strumenti e tecniche di attacco per sfruttare le vulnerabilità in un sistema e raggiungere il proprio scopo.
 
-I motivi dietro un attacco possono essere: rubare informazioni, manipolazione dei dati, interruzione alla business continuity, instillare paura e caos interrompendo il funzionamento di infrastrutture critiche, perdite economiche, propaganda religiosa o politica, raggiungere obiettivi governativi, rovinare la reputazione, vendetta, chiedere un riscatto.
+I motivi dietro un attacco possono essere: furto delle informazioni, manipolazione dei dati, interruzione alla business continuity, instillare paura e caos interrompendo il funzionamento di infrastrutture critiche, perdite economiche, propaganda religiosa o politica, raggiungimento di obiettivi governativi, rovinare la reputazione, vendetta, chiedere un riscatto.
 
 #### Vettori di attacco più popolari
 1. **CLOUD COMPUTING THREATS**
@@ -40,9 +40,9 @@ I motivi dietro un attacco possono essere: rubare informazioni, manipolazione de
     * APT è un tipo di attacco il cui scopo è rubare informazioni alle vittime senza essere rilevato.
     * APT è un termine che viene utilizzato anche per identificare gruppi hacker strutturati (APT38).
 3. **VIRUS E WORM**
-    * I virus e I work sono le minacce più popolari e sono capaci di infettare reti e sistemi.
+    * I virus e i worm sono le minacce più popolari e sono capaci di infettare reti e sistemi molto velocemente.
 4. **RANSOMWARE**
-    * I ransomware inibiscono l'accesso a computer o file cifrandoli e richiedendo un riscatto per il rilascio dei file.
+    * I ransomware inibiscono l'accesso a computer o file cifrandoli e chiedendo un riscatto per il rilascio dei file.
 5. **MOBILE THREATS**
     * L'aumento dell'utilizzo di device mobili (smartphone e tablet) ha fatto aumentare le minacce verso questo tipo di dispositivi che ad oggi vengono utilizzati sia per scopi personali che aziendali.
 
@@ -65,9 +65,9 @@ L'hacking è l'abilità di sfruttare le vulnerabilità di un sistema e compromet
 3. Le intenzioni possono essere semplice curiosità per accrescere la propria conoscenza o fare qualcosa di illegale
 
 * *Blackhat* - Hacker malevolo. L'intenzione è quella di fare qualcosa di illegale o arrecare danno.
-* *Greyhat* - Un hacker che sta da ambo le parti. L'intenzione può essere malevola o no.
+* *Greyhat* - Un hacker che opera da ambo le parti. L'intenzione può essere malevola o no.
 * *Whitehat* - Un hacker "bravo ragazzo". Aiuta le organizzazioni a mettere in sicurezza i propri sistemi.
-* *Hacktivist* - Ha uno scopo politico.
+* *Hacktivist* - Ha uno scopo politico, spesso ribelle.
 * *State sponsored hacker* - Sono hacker ingaggiati da governi per penetrare altri governi.
 * *Cyber Terrorists* - Sono motivati da un credo religioso o politico.
 * *Suicide Hacker* - Un hacker a cui non interessa finire in carcere o ricevere punizioni (multe).
@@ -109,7 +109,7 @@ L'Ethical Hacking previene che gli hacker possano accedere ai nostri sistemi, ci
 
 Un Ethical Hacker dovrebbe farsi queste domande:
 
-* Cosa può vedere un attaccante nel sistema target?
+* Cosa può trovare un attaccante nel sistema target?
 * Cosa può fare con queste informazioni?
 * Qualcuno noterebbe i tentativi di intrusione al sistema target?
 * Sono protette tutte le componenti del sistema?
@@ -133,7 +133,7 @@ EISA fa riferimento ad un insieme di requisiti, processi, principi e modelli che
 Il "Network Security Zoning" aiuta a monitorare e controllare il traffico in entrata e uscita. Inoltre aiuta le organizzazioni a gestire le proprie reti sicure selezionando il giusto livello di sicurezza in base alle differenti zone delle reti internet e intranet.
 
 #### Policy per l'Information Security
-Le policy sono il fondamento dell'infrastruttura di sicurezza e definiscono i requisiti minimi di sicurezza e le regole per permettere una corretta protezione dei sistemi.
+Le policy sono il fondamento dell'infrastruttura di sicurezza e definiscono i requisiti minimi di sicurezza e le regole, per permettere una corretta protezione dei sistemi.
 
 #### Tipologie di policy
 * **PROMISCUOUS POLICY** - Nessuna restrizione per l'utilizzo dei sistemi e delle relative risorse.
@@ -147,27 +147,27 @@ Le policy sono il fondamento dell'infrastruttura di sicurezza e definiscono i re
 3. Includere il management nello sviluppo delle policy
 4. Ammende/Multe chiare in caso di mancata conformità
 5. Fornire la versione finale della policy a tutti
-6. Assicurarsi che tutti abbiano capito la policy
+6. Assicurarsi che tutti abbiano compreso la policy
 7. Sviluppare strumenti per rinforzare le policy
 8. Formare i dipendenti
-9. Rivedi e aggiorna regolarmente le policy
+9. Rivedere e aggiornare regolarmente le policy
 
 #### Sicurezza fisica
-È il primo livello di protezione, prevede la protezione degli asset azienda da minacce ambientali o minacce da parte dell'uomo. Previene gli accessi non autorizzati, il furto di dati, spionaggio e attacchi di tipo "social engineering".
+È il primo livello di protezione, prevede la protezione degli asset aziendali da minacce ambientali o minacce da parte dell'uomo. Previene gli accessi non autorizzati, il furto di dati, spionaggio e attacchi di tipo "social engineering".
 
 #### Cos'è il rischio
-Il rischio si riferisce al livello di incertezza o di aspettativa che un evento negativo possa causare danni al sistema. Una matrice di rischio viene usata per verificare l'effettiva dimensione considerando la probabilità, la verosimiglianza e le conseguenze (impatto) del rischio.
+Il rischio si riferisce al livello di incertezza o di aspettativa che un evento negativo possa causare danni al sistema. Viene usata una matrice di rischio per verificare l'effettiva dimensione considerando la probabilità, la verosimiglianza e le conseguenze (impatto) del rischio.
 
 #### Risk Management
-Il Risk Management è il processo di riduzione e mantenimento del rischio ad un livello accettabile.
+Il Risk Management è il processo che porta alla riduzione e al mantenimento del rischio ad un livello accettabile.
 
 **Fasi**
 Identificazione del rischio -> Risk Assessment -> Trattamento del rischio -> Tracciamento del rischio -> Revisione del rischio
 
 #### Incident Management
-L'incident Management è un insieme di processi definiti volti ad identificare, analizzare, priorizzare e risolvere gli incidenti di sicurezza.
+L'incident Management è un insieme di processi definiti, volti ad identificare, analizzare, priorizzare e risolvere gli incidenti di sicurezza.
 
-Coinvolge le fasi di
+Le fasi si suddividono in:
 
 * Vulnerability Handling,
 * Incident Handling:
