@@ -34,7 +34,9 @@ Tool per scanning
 -----
 
 **NMAP** - È tra gli strumenti più utilizzati per il network scanning, è in grado di effettuare il discovery degli host attivi, porte aperte/chiuse/filtrate e servizi. Si può utilizzare sia via CLI che via GUI con Zenmap.
+
 **HPING** - Generatore e analizzatore di pacchetti, il funzionamento è simile al comando ping, tuttavia con hping è possibile utilizzare protocolli diversi da ICMP e customizzare le parti del pacchetto IP.
+
 **AMAP** - Next-generation scanning tool. Identifica applicazioni in ascolto sulle porte anche se il servizio non gira sulla porta di default.
 
 Tecniche di scanning
