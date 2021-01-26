@@ -18,7 +18,7 @@ Attacchi MAC
 Quando la CAM di uno switch è piena, i pacchetti vengono inviati a tutte le porte dello switch, trasformandolo di fatto in un hub. La modalità dello switch viene resettata in "learning mode". In genere la CAM viene riempita con IP/MAC fittizi.
 
 #### Switch Port Stealing
-Questa tecnica utilizza il MAC Flooding per sniffare i pacchetti. L'attaccante inonda lo switch con pacchetti ARP appositamente modificat: il pacchetto infatti ha il MAC del target come sorgente e il MAC dell'attaccante come destinatario; se l'attaccante è abbastanza veloce rispetto allo switch allora i pacchetti verranno redirezionati verso di lui e non più al target legittimo.
+Questa tecnica utilizza il MAC Flooding per sniffare i pacchetti. L'attaccante inonda lo switch con pacchetti ARP appositamente modificati: il pacchetto infatti ha il MAC del target come sorgente e il MAC dell'attaccante come destinatario; se l'attaccante è abbastanza veloce rispetto allo switch allora i pacchetti verranno redirezionati verso di lui e non più al target legittimo.
 
 Attacchi DHCP
 -----
@@ -61,7 +61,7 @@ Il sistema dell'attaccante deve essere connesso alla rete LAN e abilitato allo s
 Modificare il file hosts del sistema permette all'attaccante un notevole successo: infatti se il sistema trova la query cercata nel proprio file hosts non andrà a chiederla al server DNS.
 
 #### Proxy Server DNS Poisoning
-Un attaccante può cambiare le impostazioni del proxy server della vittima e tutte le richieste passeranno non dal proxy originario ma da quello impostato dall'attaccante
+Un attaccante può cambiare le impostazioni del proxy server della vittima e tutte le richieste passeranno non dal proxy originario ma da quello impostato dall'attaccante.
 
 #### DNS Cache Poisoning
 Questa tipologia di attacco consiste nell'alterazione della cache DNS (o nell'aggiunta di record DNS) nella cache del resolver DNS in modo da redirezionare il traffico verso siti malevoli.
