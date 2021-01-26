@@ -9,6 +9,7 @@ Il packet sniffing è un processo di monitoraggio e di cattura di tutti i pacche
 
 #### Tipologie di Sniffing
 **PASSIVE SNIFFING**: si riferisce ad una tecnica di sniffing attraverso hub (che non sono più in utilizzo oggi) e può essere effettuata solo in una rete dove i pacchetti sono inviati a tutti i dispositivi.
+
 **ACTIVE SNIFFING**:  è una tecnica che si utilizza in una rete dove ci sono degli switch, consiste nell'iniettare pacchetti ARP nella rete per riempire la CAM (content addressable memory) dello switch. Le tecniche utilizzate includono: MAC flooding, Attacchi DHCP, DNS Poisoning, Switch Port Stealing, ARP Poisoning e attacchi spoofing. Il NIC deve essere in modalità promiscua.
 
 Attacchi MAC
