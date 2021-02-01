@@ -11,7 +11,9 @@ Tecniche di attacco DoS/DDoS
 -----
 
 **VOLUMETRIC ATTACK**: Consuma la banda del target (network o servizio).
+
 **PROTOCOL ATTACK**: Utilizza risorse come le connection state table presenti negli apparati di rete.
+
 **APPLICATION LAYER ATTACK**: Consuma le risorse dell'applicazione (o servizio) in modo da renderlo non funzionante agli utenti legittimi.
 
 #### UDP Flood
@@ -39,7 +41,9 @@ Le tecniche di detection sono basate sull'identificazione e la discriminazione d
 
 #### Contromisure
 **Assorbire l'attacco**: Utilizzare ulteriori risorse (banda, risorse di sistema)
+
 **Degradare servizi**: Spegnere i servizi non critici e non necessari
+
 **Spegnere i servizi**: Spegnere tutti i servizi finché l'attacco non è finito
 
 #### Prevenzione
@@ -50,7 +54,7 @@ Le tecniche di detection sono basate sull'identificazione e la discriminazione d
 
 #### Riflessione
 Esistono sistemi che sono impostati con un basso livello di sicurezza (honeypot) e fungono da esca per gli attaccanti. Un honeypot serve a raccogliere informazioni sull'attaccante e sulle tecniche di attacco.
-Utilizzare un approccio **defense-in-depth** con IPSES in diversi punti della rete per dirottare sospetti DoS verso le honeypot.
+Utilizzare un approccio **defense-in-depth** in diversi punti della rete per dirottare il traffico sospetto DoS verso le honeypot.
 
 #### Mitigazione
 * LOAD BALANCING: Bilanciare il carico in un architettura multi-server permette di mitigare gli attacchi DDoS.
