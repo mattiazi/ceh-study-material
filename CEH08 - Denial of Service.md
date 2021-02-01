@@ -5,6 +5,7 @@ Introduzione a DoS e DDoS
 -----
 
 L'attacco DoS (Denial of Service) è un tipo di attacco che colpisce computer o reti e riduce, restringe o previene l'accesso alle risorse da parte di utenti legittimi. L'attaccante inonda la vittima con richieste non legittime o semplice traffico per sovracaricarne le risorse.
+
 DDoS (Distributed Denial of Service) è un attacco DoS coordinato che coinvolge un numero elevato di computer zombie (sistemi compromessi in precedenza, botnet) per attaccare un singolo target.
 
 Tecniche di attacco DoS/DDoS
@@ -17,7 +18,7 @@ Tecniche di attacco DoS/DDoS
 **APPLICATION LAYER ATTACK**: Consuma le risorse dell'applicazione (o servizio) in modo da renderlo non funzionante agli utenti legittimi.
 
 #### UDP Flood
-L'attaccante invia pacchetti UDP con indirizzo spoofed ad una frequenza alta, su porte casuali. Questo comporterà che il server sarà costretto a "controllare" se esistono applicazioni che possano rispondere sulle porte selezionate.
+L'attaccante invia pacchetti UDP con indirizzo spoofed ad alta frequenza, su porte casuali. Questo comporterà che il server sarà costretto a "controllare" se esistono applicazioni che possano rispondere sulle porte selezionate.
 
 #### SYN Flood
 L'attaccante invia una massiccia quantità di richieste SYN al target con indirizzo IP sorgente fittizio, il target risponderà con SYN+ACK attendendo per l'ACK finale.
@@ -49,7 +50,7 @@ Le tecniche di detection sono basate sull'identificazione e la discriminazione d
 #### Prevenzione
 * EGRESS FILTERING: Scansionare gli header dei pacchetti IP che lasciano la rete, assicurarsi che traffico non autorizzato o malevolo lasci la rete interna.
 * INGRESS FILTERING: Prevenire lo spoofing dell'indirizzo sorgente, protegge dagli attacchi flooding.
-* TCP INTERCEPT: La funzionalità TCP Interceppt presente nei router, protegge i server TCP da attacchi SYN Flooding. Previene attacchi DoS validando le connessioni TCP.
+* TCP INTERCEPT: La funzionalità TCP Intercept presente nei router, protegge i server TCP da attacchi SYN Flooding. Previene attacchi DoS validando le connessioni TCP.
 * RATE LIMITING: Controlla il rate del traffico in ingresso e in uscita, riduce l'alto traffico in ingresso.
 
 #### Riflessione
