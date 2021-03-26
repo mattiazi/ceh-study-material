@@ -61,8 +61,11 @@ Metodologia di Web Application Hacking
 Il footprinting è il primo step per l'hacking di webapp e consiste nell'identificazione di applicazioni vulnerabili e nella selezione delle vittime.
 
 **SERVER DISCOVERY**: Catalogazione di informazioni sulla location dei server e sul loro stato. Informazioni su indirizzi IP, nomi DNS e port scanning permettono di svolgere la fase di service discovery in maniera più agile.
+
 **SERVICE DISCOVERY**: Analizzare il target per identificare le porte in utilizzo. Alcuni tool per effettuare questo tipo di analisi: nmap, netscan tools pro, sandcat.
+
 **SERVER IDENTIFICATION**: Analizzare l'header delle risposte del server per identificare modello e versione del software web server, in sostanza si tratta di banner grabbing.
+
 **HIDDEN CONTENT DISCOVERY**: Scoprire contenuti e funzionalità nascoste che non sono raggiungibili direttamente, in modo da poterle sfruttare. (Web dir brute forcing, web spidering)
 
 #### Detection di WAF e Proxy
